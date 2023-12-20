@@ -1,0 +1,24 @@
+.img-style {
+    width: 37%;
+}
+
+.ibuprofen-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.left-content {
+    margin-right: 20px;
+}
+
+.right-content {
+    flex: 1;
+    margin-left: -600px;
+}
+
+.text-container {
+    margin-right: 20px;
+}

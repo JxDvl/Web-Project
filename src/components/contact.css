@@ -1,0 +1,56 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.txtArea, .inpt {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-color: #ccc;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img {
+    width: 77%;
+    border-radius: 5px;
+    margin-right: 120px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+}
+
+.popup p {
+    margin-bottom: 10px;
+}
